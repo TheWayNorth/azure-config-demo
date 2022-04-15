@@ -1,6 +1,6 @@
 #web容器环境
 server:
-  port: 8090
+  # port: 8090
   servlet:
     # 应用的访问路径
     context-path: /
@@ -94,11 +94,11 @@ spring:
 
 
 #token认证
-security:
-  oauth2:
-    resource:
-      id: ${spring.application.name}
-      user-info-uri: http://zuul-dev.lmp-sy.xpaas.lenovo.com/dlms/dlms-auth/security/user
+#security:
+#  oauth2:
+#   resource:
+#      i#d: ${spring.application.name}
+#      user-info-uri: http://zuul-dev.lmp-sy.xpaas.lenovo.com/dlms/dlms-auth/security/user
 
 # 日志配置
 #logging:
