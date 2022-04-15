@@ -101,11 +101,11 @@ security:
       user-info-uri: http://zuul-dev.lmp-sy.xpaas.lenovo.com/dlms/dlms-auth/security/user
 
 # 日志配置
-logging:
-  level:
-    com.lenovo.bigdata.delivery.dlms: debug
-    org.springframework: warn
-  config: classpath:logConfig/logback-test.xml
+#logging:
+#  level:
+#    com.lenovo.bigdata.delivery.dlms: debug
+#    org.springframework: warn
+#  config: classpath:logConfig/logback-test.xml
 
 #swagger开关  true-开启 false-关闭
 swagger:
