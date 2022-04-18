@@ -20,9 +20,13 @@ spring:
     druid:
       # 主库数据源
       master:
-        url: jdbc:postgresql://dlms-db.postgres.database.azure.com:5432/dlms-common
-        username: dlmsadmin@dlms-db
-        password: Dlms!1*8$4
+        #url: jdbc:postgresql://dlms-db.postgres.database.azure.com:5432/dlms-common
+        #username: dlmsadmin@dlms-db
+        #password: Dlms!1*8$4
+        url: jdbc:postgresql://127.0.0.1:5432/dlms_cloud_base
+        username: postgres
+        password: 123456
+        
       # 从库数据源
       slave:
         # 从数据源开关/默认关闭
